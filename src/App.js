@@ -11,8 +11,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/movie/:id" element={<Detail/>}/>
-        <Route path="/" element={<Home/>}/>
-        <Route />
+        <Route path="/react-movie/" element={<Home/>}/>
       </Routes>
     </BrowserRouter>
   )

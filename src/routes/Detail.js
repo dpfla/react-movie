@@ -24,7 +24,7 @@ background_image_original, small_cover_image, genres
         <div className={style.body}>
             <div className={style.wrapper} style={{"backgroundImage": `url(${data.background_image_original})`}}>
                 <h1>
-                    <Link to="/">x</Link>
+                    <Link to="/react-movie/">x</Link>
                 </h1>
                 <img className={style.poster} src={data.large_cover_image} alt="영화 포스터"/>
                 <div className={style.parah}>
