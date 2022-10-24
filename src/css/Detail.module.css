@@ -1,0 +1,59 @@
+.body{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+.wrapper{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    min-height: 100vh;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.wrapper > h1 {
+    margin: 10px 0 0 20px;
+}
+.wrapper > h1 > a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 2.3rem;
+    margin: 0;
+    font-weight: 500;
+    padding: 10px;
+}
+.wrapper .poster{
+    position: relative;
+    width: 22%;
+    margin-top: 2%;
+    margin-left: 10%;
+    z-index: 100;
+}
+.parah{
+    position: absolute;
+    display: inline-block;
+    width: 65%;
+    height: 75%;
+    top: 16%;
+    left: 27%;
+    padding-left: 7%;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+.title{
+    font-size: 2.2rem;
+    font-weight: 600;
+    text-shadow: 1px 2px #666;
+}
+.etc{
+    font-size: 0.9rem;
+}
+.description{
+    display: inline-block;
+    width: 95%;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    text-indent: 1.2;
+}
